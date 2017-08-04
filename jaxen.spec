@@ -4,7 +4,7 @@
 Name:           %{?scl_prefix}jaxen
 Epoch:          0
 Version:        1.1.6
-Release:        11.1%{?dist}
+Release:        11.2%{?dist}
 Summary:        An XPath engine written in Java
 License:        BSD
 URL:            http://jaxen.codehaus.org/
@@ -70,6 +70,9 @@ cp -pr src/java/samples/* %{buildroot}%{_datadir}/%{pkg_name}/samples
 %{_datadir}/%{pkg_name}
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0:1.1.6-11.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0:1.1.6-11.1
 - Automated package import and SCL-ization
 
